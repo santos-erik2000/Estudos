@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <form action="">
+            <label for="lbLogin">Login:</label><br />
+            <input type="text" name="login" size="80"/>
+            <br />
+            <label for="lbSenha">Senha</label><br />
+            <input type="password" name="senha"/>
+            <br />
+                <br />
+            <input type="submit" value="Login"/>
+            <br />
+                <br />
+            <h1>Cadastre-se</h1>
+
+            <form action="">
+
+            
+            <input list="tiposDeCarro" name="tiposDeCarro" />
+            <datalist id="tiposDeCarro">
+                <option value="Fiat">
+                <option value="Gold">
+            </datalist>
+
+            <br />
+                <br />
+
+            <label for="lbEmail">Email</label><br />
+            <input type="Email" /> 
+            <br />
+                <br />
+
+            <labe for="lbTel">Telefone: </labe>
+
+            <input type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="(xx)9 xxxx - xxxx" 
+            title="Coloque exatamente igual o exemplo para ser validado!!"/>
+            <br />
+                <br />
+
+            <label for="lbSexo">Sexo: </label><br />
+            <input type="radio" name="sexo"/> masculino <br />
+            <input type="radio" name="sexo" /> Feminino <br />
+            <br />
+
+            <label for="lbInteresses">Interesses:</label> <br />
+            <input type="checkbox" />Futebol <br />
+            <input type="checkbox" />Games <br />
+            <input type="checkbox" />Cursos <br />
+            <br />
+                <br />
+
+            <label for="lbBairro">Bairros</label><br />
+            <select>
+                <option>Narciso Gomes</option>
+                <option>Pedra</option>
+                <option>Centro</option>
+                <option>Jose ometto</option>
+            </select>
+            <br />
+                <br />
+
+            <label for="lbComentarios">Comentarios: </label>
+            <textarea minlength="10" pattern></textarea>
+            <br />
+                <br />
+
+            <input type="week" />
+            <br />
+                <br />
+            
+
+            <input type="submit" value="cadastrar" />
+            </form>
+
+
+        </form>
+    </body>
+</html>

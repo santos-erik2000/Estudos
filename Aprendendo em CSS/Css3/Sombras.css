@@ -1,0 +1,19 @@
+#Box{
+    margin:50px auto;
+    background: #009670;
+    width:400px;
+    border-radius:10px;
+    height:400px;
+    padding:8px;
+    /* Horizontal, Vertical, Blour(Grossura da sombra), Espacamento da sombra*/
+    box-shadow: 10px 10px  10px 10px black, -10px -10px 10px red;  
+}
+
+ #Box h1{
+    text-align:center;
+    color: rgba(255,0,0,1);
+    font-size:60px;
+    text-transform:uppercase;
+    text-shadow: 5px 10px 20px  black ;
+    
+}

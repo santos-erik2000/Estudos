@@ -1,0 +1,83 @@
+body{
+    
+    width:auto;
+    margin: 0px 50px 50px 50px;
+    background-color:black;
+
+}
+
+#Plano_Fundo{
+    background-color:#8000FF;
+    height:294px;
+    width:720;
+    border-radius:0px 0px 10px 10px;
+
+}
+
+#menu{
+    background-color: #F5A9A9;
+    height:30px;
+    padding:10px 10px;
+}
+
+article{
+
+    height:430px;
+    width:421px;
+    background-color:#DBA901;
+}
+
+#img1{
+    margin: 30px 30px 30px 30px;
+    border-radius:10px;
+
+   
+    
+}
+#img2{
+
+    float: right;
+    position:absolute;
+    top:294px;
+    left:500px;
+    margin: 30px 15px 30px 60px;
+    border-radius:10px;
+    
+   
+    
+}
+#img3{
+
+    margin: 30px 30px 0px 30px;
+    border-radius:10px;
+    
+    
+}
+#img4{
+    
+    float:right;
+    position:absolute;
+    top:724px;
+    left:500px;
+    margin: 60px 15px 0px 60px;
+    border-radius:10px;
+    
+    
+}
+
+aside{
+    background-color:#01DFD7;
+    height:890px;
+    width:313px;
+    margin: 30px 30px 0px 15px;
+    float:right;
+    border-radius:10px;
+}
+img{
+    padding: 30px 10px 0px 20px;
+}
+
+img:hover{
+    zoom:101%;
+
+}

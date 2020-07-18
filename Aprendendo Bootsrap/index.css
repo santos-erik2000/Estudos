@@ -1,0 +1,38 @@
+.Azul {
+    background:blue;
+}
+ .Pink {
+    background:pink;
+ }
+
+ .Amarelo{
+    background:yellow;
+ }
+
+.red{
+    background:red;
+ }
+ .orange{
+     background:orange;
+ }
+.dark-red{
+    background:darkred;
+}
+
+.preto{
+    background: rgb(0,0,0)
+}
+
+.verde{
+    background:green;
+}
+
+.roxo{ 
+    background:purple;
+
+}
+
+.cinza{
+    background:grey;
+
+}
